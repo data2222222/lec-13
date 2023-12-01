@@ -1,0 +1,39 @@
+@import 'styles';
+
+@media screen and (max-width: 300px) {
+    .container .div1,
+    .container div {
+        width: 100%;
+        max-width: none;
+    }
+
+    .container .div5 {
+        margin-left: 0;
+    }
+
+    .container .div2,
+    .container .div3,
+    .container .div4,
+    .container .div6,
+    .container .div7 {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 301px) and (max-width: 600px) {
+    .container .div5 {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    .container .div5 {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .container .div5 {
+        margin-left: 300px;
+    }
+}

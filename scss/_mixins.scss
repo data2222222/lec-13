@@ -1,0 +1,17 @@
+@mixin common-styles {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+}
+
+@mixin heading-styles {
+    @include common-styles;
+}
+
+@mixin text-styles {
+    @include common-styles;
+}

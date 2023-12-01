@@ -1,0 +1,103 @@
+@import 'mixins';
+
+h1 {
+    @include common-styles;
+}
+
+.bu {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.home {
+    margin-left: 956px;
+}
+
+.aboutus,
+.ourservices,
+.tourpackage {
+    margin-left: 80px;
+}
+
+.foto1 {
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+.discover {
+    @include common-styles;
+    margin-top: 20px;
+}
+
+.hots {
+    color: #010101;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.txt1 {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.container {
+    height: 700px;
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .div1,
+.container div {
+    height: 220px;
+    width: 100%;
+    max-width: 240px;
+}
+
+.container .div2 {
+    margin-left: 83px;
+}
+
+.container .div3,
+.container .div4,
+.container .div6,
+.container .div7 {
+    margin-left: 33px;
+}
+
+.container .div5 {
+    margin-left: 375px;
+}
+
+.divtxt1 {
+    color: #343232;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 27px;
+}
+
+.divtxt2 {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 13px;
+}
